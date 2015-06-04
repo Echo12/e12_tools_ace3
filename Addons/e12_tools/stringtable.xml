@@ -3,119 +3,149 @@
     <Package name="Tools">
     	<Key ID="STR_E12_Tools_Actions_Tools">
             <English>Tools</English>
+            <German>Tools</German>
         </Key>
     	<Key ID="STR_E12_Tools_Actions_ViewDistance">
             <English>View distance</English>
+            <German>Sichtweite</German>
         </Key>
     	<Key ID="STR_E12_Tools_Actions_Admin">
             <English>Admin</English>
+            <German>Admin</German>
         </Key>
     	<Key ID="STR_E12_Tools_Actions_Mission">
-            <English>Build</English>
+            <English>Missionbuild</English>
+            <German>Missionsbau</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_Teleport">
             <English>Teleport...</English>
+            <German>Teleport...</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_Statistics">
             <English>Statistics</English>
+            <German>Statistik</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_SaveReconnect">
             <English>Reconnect...</English>
+            <German>Reconnect...</German>
         </Key>
 
         <Key ID="STR_E12_Tools_Actions_SaveReconnect_Prepare">
             <English>...prepare</English>
+            <German>...vorbereiten</German>
         </Key>
 
         <Key ID="STR_E12_Tools_Actions_SaveReconnect_Apply">
             <English>...apply</English>
+            <German>...anwenden</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_SetCaptive">
             <English>Set captive</English>
+            <German>Set captive</German>
         </Key>
 
 		<Key ID="STR_E12_Tools_Actions_SetNonCaptive">
             <English>Set non captive</English>
+            <German>Set non captive</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_Invulnerable">
             <English>Make invulnerable</English>
+            <German>Unverwundbar machen</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_Vulnerable">
             <English>Make vulnerable</English>
+            <German>Verwundbar machen</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_VirtualArsenal">
             <English>Virtual Arsenal</English>
+            <German>Virtual Arsenal</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_GetPos">
             <English>GetPos (ASL)</English>
+            <German>GetPos (ASL)</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_PerfMon">
             <English>Performance</English>
+            <German>Leistung</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_AssignMedicSelf">
             <English>Be a Medic</English>
+            <German>selbst zum Medic machen</German>
         </Key>
 
         <Key ID="STR_E12_Tools_Actions_AssignMedic">
             <English>Make medic</English>
+            <German>zum Medic machen</German>
         </Key>
 
         <Key ID="STR_E12_Tools_Actions_AssignAdmin">
             <English>Make admin</English>
+            <German>zum Admin machen</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_FullHeal">
             <English>Full heal</English>
+            <German>Komplettheilung</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_CrateItem">
             <English>Item crate</English>
+            <German>Item Kiste</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_CrateMedic">
             <English>Medic crate</English>
+            <German>Medic Kiste</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_CrateRadio">
             <English>Radio crate</English>
+            <German>Radio Kiste</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_CrateACE">
             <English>ACE crate</English>
+            <German>ACE Kiste</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_TeleportBase">
             <English>...to base</English>
+            <German>...zur Basis</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_TeleportLeader">
             <English>...to team leader</English>
+            <German>...zum Gruppenführer</German>
         </Key>
 
         <Key ID="STR_E12_Tools_Actions_TeleportMissionLeader">
             <English>...to mission leader</English>
+            <German>...zum Missionsleiter</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_TeleportLastPos">
             <English>...to last pos</English>
+            <German>...zur letzten Position</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_TeleportMap">
             <English>... by map click</English> 
+            <German>...per Mapklick</German>
         </Key>
 
         <Key ID="STR_E12_Tools_Actions_CustomActions">
-            <English>Actions</English> 
+            <English>Custom Actions</English> 
+            <German>benutzerdefinierte Aktionen</German>
         </Key>
 
         
