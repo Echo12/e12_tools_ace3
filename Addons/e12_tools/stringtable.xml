@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="E12">
+    <Package name="Tools">
+    	<Key ID="STR_E12_Tools_Actions_Tools">
+            <English>Tools</English>
+        </Key>
+    	<Key ID="STR_E12_Tools_Actions_ViewDistance">
+            <English>View distance</English>
+        </Key>
+    	<Key ID="STR_E12_Tools_Actions_Admin">
+            <English>Admin</English>
+        </Key>
+    	<Key ID="STR_E12_Tools_Actions_Mission">
+            <English>Build</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_Teleport">
+            <English>Teleport...</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_Statistics">
+            <English>Statistics</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_SaveReconnect">
+            <English>Reconnect...</English>
+        </Key>
+
+        <Key ID="STR_E12_Tools_Actions_SaveReconnect_Prepare">
+            <English>...prepare</English>
+        </Key>
+
+        <Key ID="STR_E12_Tools_Actions_SaveReconnect_Apply">
+            <English>...apply</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_SetCaptive">
+            <English>Set captive</English>
+        </Key>
+
+		<Key ID="STR_E12_Tools_Actions_SetNonCaptive">
+            <English>Set non captive</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_Invulnerable">
+            <English>Make invulnerable</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_Vulnerable">
+            <English>Make vulnerable</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_VirtualArsenal">
+            <English>Virtual Arsenal</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_GetPos">
+            <English>GetPos (ASL)</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_PerfMon">
+            <English>Performance</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_AssignMedicSelf">
+            <English>Be a Medic</English>
+        </Key>
+
+        <Key ID="STR_E12_Tools_Actions_AssignMedic">
+            <English>Make medic</English>
+        </Key>
+
+        <Key ID="STR_E12_Tools_Actions_AssignAdmin">
+            <English>Make admin</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_FullHeal">
+            <English>Full heal</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_CrateItem">
+            <English>Item crate</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_CrateMedic">
+            <English>Medic crate</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_CrateRadio">
+            <English>Radio crate</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_CrateACE">
+            <English>ACE crate</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_TeleportBase">
+            <English>...to base</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_TeleportLeader">
+            <English>...to team leader</English>
+        </Key>
+
+        <Key ID="STR_E12_Tools_Actions_TeleportMissionLeader">
+            <English>...to mission leader</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_TeleportLastPos">
+            <English>...to last pos</English>
+        </Key>
+
+    	<Key ID="STR_E12_Tools_Actions_TeleportMap">
+            <English>... by map click</English> 
+        </Key>
+
+        <Key ID="STR_E12_Tools_Actions_CustomActions">
+            <English>Actions</English> 
+        </Key>
+
+        
+    </Package>
+ </Project>

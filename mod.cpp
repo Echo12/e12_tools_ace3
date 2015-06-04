@@ -1,0 +1,12 @@
+name = "Echo12 Tools version 3.0";
+picture = "logo_echo12.paa";
+actionName = "Echo12";
+action = "https://www.echo12.de";
+description = "Echo12 Tools version 3.0";
+logo = "logo_echo12.paa";
+logoOver = "logo_echo12.paa";
+tooltip = "E12";
+tooltipOwned = "E12 Owned";
+overview = "E12 Tools for Arma 3";
+author = "Echo12 Team";
+overviewPicture = "logo_echo12.paa";
