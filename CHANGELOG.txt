@@ -2,4 +2,5 @@ v3.0.0
 + ACE- Menu Integration
 + New Itemcrate with DLC- Ammunition
 + German Stringtable
++ assign E12 Admin by Interaction menu
 +/- Script cleanup
