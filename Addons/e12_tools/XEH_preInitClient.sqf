@@ -2,25 +2,26 @@
 
 ADDON = false;
 
-//VAR
-GVAR(settings_admins) = []; //Array of Admin _USERNAMES_
-GVAR(teleport_oldpos) = [0,0,0];
-
-GVAR(perfLogServer)=[0, 0, 0, 0];
-GVAR(perfLogHC)=[0, 0, 0, 0];
-
-
+//STATS
+GVAR(statsActive) = false;
+GVAR(statsRunning) = false;
+GVAR(stats) = [];
+GVAR(shotsfired) = 0;
+PREP(actionStatsLoop);
+PREP(actionStatsShow);
+PREP(statsAvailable);
 
 //PERF MON
-//PREP(perfLogHC);
-//PREP(perfLogServer);
+PREP(perfLogHC);
+PREP(perfLogServer);
+GVAR(perfLogServer)=[0, 0, 0, 0];
+GVAR(perfLogHC)=[0, 0, 0, 0];
 
 //SAFE RECONNECT
 PREP(actionSafeReconnectPrepare);
 PREP(actionSafeReconnectApply);
 PREP(actionSafeReconnectRemove);
 PREP(actionSafeReconnectAvailable);
-
 
 //MISSIONBUILD
 PREP(actionMissionGetPosASL);
@@ -30,6 +31,7 @@ PREP(actionMissionToggleInvulnerability);
 PREP(actionMissionVirtualArsenal);
 
 //TELEPORT
+GVAR(teleport_oldpos) = [0,0,0];
 PREP(actionTeleport);
 PREP(actionTeleportBase);
 PREP(actionTeleportLeader);
@@ -44,11 +46,11 @@ PREP(actionAdminCreateCrateMedic);
 PREP(actionAdminCreateCrateRadio);
 PREP(actionAdminMedicalAssignMedic);
 PREP(actionAdminMedicalFullHeal);
+PREP(actionAdminPerfMon);
 
 //SETTINGS
+GVAR(settings_admins) = []; //Array of Admin _USERNAMES_
 PREP(actionSettingsViewDistance);
-
-//COMMON
 PREP(isAdmin);
 
 //CUSTOM ACTIONS

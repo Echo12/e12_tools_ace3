@@ -28,6 +28,21 @@
             <German>Statistik</German>
         </Key>
 
+        <Key ID="STR_E12_Tools_Actions_StatisticsEnable">
+            <English>enable</English>
+            <German>einschalten</German>
+        </Key>
+
+        <Key ID="STR_E12_Tools_Actions_StatisticsDisable">
+            <English>disable</English>
+            <German>ausschalten</German>
+        </Key>
+
+        <Key ID="STR_E12_Tools_Actions_StatisticsShow">
+            <English>show</English>
+            <German>anzeigen</German>
+        </Key>
+
     	<Key ID="STR_E12_Tools_Actions_SaveReconnect">
             <English>Reconnect...</English>
             <German>Reconnect...</German>
@@ -148,6 +163,5 @@
             <German>benutzerdefinierte Aktionen</German>
         </Key>
 
-        
     </Package>
  </Project>

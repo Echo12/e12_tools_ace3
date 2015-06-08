@@ -16,6 +16,9 @@ class E12_SelfActions {
 	    icon = PATHTOF(UI\icons\tools_viewdistance.paa);
 	};
 
+	//STATISTICS
+	#include "E12_Tools_SelfActionsStatistics.hpp"
+
 	//TELEPORT
 	#include "E12_Tools_SelfActionsTeleport.hpp"
 
@@ -30,4 +33,6 @@ class E12_SelfActions {
 
 	//CUSTOM ACTIONS
 	#include "E12_Tools_SelfActionsCustom.hpp"
+
+
 };

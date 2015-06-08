@@ -24,6 +24,15 @@ class E12_Admin {
 		    icon = PATHTOF(UI\icons\tools_medical.paa);
 		};
 
+		class E12_Admin_PerfMon {
+	        displayName = "$STR_E12_Tools_Actions_PerfMon";
+		    runOnHover = 0;
+		    exceptions[] = {"isNotInside"};
+		    statement = QUOTE([_player] call FUNC(actionAdminPerfMon));
+		    condition = QUOTE(true);
+		    icon = PATHTOF(UI\icons\tools_perfmon.paa);
+		};
+
 		class E12_Admin_CrateItem {
 	        displayName = "$STR_E12_Tools_Actions_CrateItem";
 		    runOnHover = 0;

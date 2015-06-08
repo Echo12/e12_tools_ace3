@@ -3,8 +3,6 @@ PARAMS_1[_player];
 
 private["_i","_action"];
 
-[ "DisplayActions", "e12_tools", [true, false, true] ] call CBA_fnc_debug;
-
 for "_i" from 1 to 15 do
 {
     [_player,1,["ACE_SelfActions","E12_SelfActions","E12_CustomActions",format["E12_CustomAction_%1",_i] ]] call ace_interact_menu_fnc_removeActionFromObject;

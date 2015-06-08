@@ -1,8 +1,8 @@
 #include "script_component.hpp"
 PARAMS_1(_unit);
 
-titleText ["SAFE RECONNECT","BLACK OUT",3];
-sleep 1;
+//titleText ["SAFE RECONNECT","BLACK OUT",3];
+//sleep 1;
 _uid = getPlayerUID _unit;
 if(isNil "_uid" || _uid == "") then {
 	_uid="LOCAL";
@@ -26,8 +26,5 @@ if(!isNil format["e12_tools_safereconnect_uid_%1",_uid]) then {
 }else{
 	_unit globalChat "Safe Reconnect nicht verfügbar!";
 };
-titleText ["SAFE RECONNECT","BLACK IN",3];
-sleep 3;
-
-
-[ "applySafeReconnect", "e12_tools", [true, false, true] ] call CBA_fnc_debug;
+//titleText ["SAFE RECONNECT","BLACK IN",3];
+//sleep 3;

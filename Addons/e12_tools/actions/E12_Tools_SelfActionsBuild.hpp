@@ -55,7 +55,7 @@ class E12_Mission {
         displayName = "$STR_E12_Tools_Actions_GetPos";
 	    runOnHover = 0;
 	    exceptions[] = {"isNotInside"};
-	    statement = QUOTE([] call FUNC(actionMissionGetPosASL));
+	    statement = QUOTE([_player] call FUNC(actionMissionGetPosASL));
 	    condition = QUOTE(true);
 	    icon = PATHTOF(UI\icons\tools_dot.paa);
 	};
