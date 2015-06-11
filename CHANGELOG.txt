@@ -1,3 +1,7 @@
+V3.0.1
++ Performance Monitor
++ Statistics
+
 v3.0.0
 + ACE- Menu Integration
 + New Itemcrate with DLC- Ammunition

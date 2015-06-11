@@ -6,7 +6,8 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.0;
         requiredAddons[] = {"ace_main"};
-        author[] = {"Ugene"};
+		author[] = {"Echo12 Development Team"};
+		version = "3.0.1";
         authorUrl = "http://www.echo12.de";
     };
 };
