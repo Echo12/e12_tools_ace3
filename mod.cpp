@@ -1,4 +1,4 @@
-name = "Echo12 Tools version 3.0";
+name = "Echo12 Tools version 3.0.1";
 picture = "logo_echo12_ca.paa";
 actionName = "Echo12";
 action = "https://www.echo12.de";

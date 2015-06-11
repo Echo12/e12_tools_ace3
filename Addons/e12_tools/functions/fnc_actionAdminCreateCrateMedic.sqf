@@ -9,5 +9,3 @@ PARAMS_1(_unit);
 	_crate allowdamage false;
 },
 _unit] call CBA_fnc_globalExecute;  
-
-[ "CreateCrateMedic", "e12_tools", [true, false, true] ] call CBA_fnc_debug;

@@ -39,5 +39,3 @@ PARAMS_1(_unit);
 	_crate addMagazineCargoGlobal ["30Rnd_65x39_caseless_green_mag_Tracer", 50];
 },
 _unit] call CBA_fnc_globalExecute; 
-
-[ "CreateCrateItems", "e12_tools", [true, false, true] ] call CBA_fnc_debug;

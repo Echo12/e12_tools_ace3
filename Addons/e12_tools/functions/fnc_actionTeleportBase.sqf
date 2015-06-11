@@ -16,7 +16,7 @@ switch (side _player) do {
          	_telepos = getMarkerPos "respawn_east";   
         };    
     };
-    case (resistance): {
+    case (guer): {
     	_telepos = getMarkerPos "e12_debug_guerrila"; 
  		if(_telepos distance  [0,0,0] == 0) then {
          	_telepos = getMarkerPos "respawn_guerrila";   

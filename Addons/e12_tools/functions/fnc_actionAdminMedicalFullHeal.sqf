@@ -9,6 +9,3 @@ if(vehicle _unit == _unit) then {
 	_unit setFuel 1;
 	_unit setDamage 0;	
 };
-
-[ "FullHeal", "e12_tools", [true, false, true] ] call CBA_fnc_debug;
-
