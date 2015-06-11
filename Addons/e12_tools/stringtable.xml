@@ -160,7 +160,7 @@
 
         <Key ID="STR_E12_Tools_Actions_CustomActions">
             <English>Custom Actions</English> 
-            <German>benutzerdefinierte Aktionen</German>
+            <German>Aktionen</German>
         </Key>
 
     </Package>
