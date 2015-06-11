@@ -1,6 +1,8 @@
 #include "script_component.hpp"
-PARAMS_1(_player);
+PARAMS_1(_target);
 
-if ((isPlayer _player)) {
-	_player setVariable[QGVAR(isadmin),true]);
-}
+[-2, 
+{
+_this setVariable[QGVAR(isadmin),true]);
+},
+_target] call CBA_fnc_globalExecute;  

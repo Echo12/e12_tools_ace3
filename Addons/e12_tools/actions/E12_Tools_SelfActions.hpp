@@ -1,7 +1,7 @@
 class E12_SelfActions {
     displayName = "$STR_E12_Tools_Actions_Tools";
     runOnHover = 1;
-    exceptions[] = {"isNotInside"};
+    exceptions[] = {"isNotInside","notOnMap"};
     statement = QUOTE(true);
     condition = QUOTE(true);
     icon = PATHTOF(UI\icons\tools_main.paa);
@@ -10,7 +10,7 @@ class E12_SelfActions {
     class ViewDistance {
         displayName = "$STR_E12_Tools_Actions_ViewDistance";
 	    runOnHover = 0;
-	    exceptions[] = {"isNotInside"};
+	    exceptions[] = {"notOnMap","isNotInside"};
 	    statement = QUOTE([] call FUNC(actionSettingsViewDistance));
 	    condition = QUOTE(true);
 	    icon = PATHTOF(UI\icons\tools_viewdistance.paa);
