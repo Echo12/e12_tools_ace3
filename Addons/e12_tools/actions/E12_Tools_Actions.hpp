@@ -29,7 +29,7 @@ class Tools {
 	    runOnHover = 0;
 	    exceptions[] = {"isNotInside", "notOnMap"};
 	    statement = QUOTE([_target] call FUNC(actionAdminAssignAdmin));
-	    condition = QUOTE(false); //TODO: FIX IT! //QUOTE((isPlayer _target));
+	    condition = QUOTE((isPlayer _target));
 	    icon = PATHTOF(UI\icons\tools_admin.paa);
 	};
 };

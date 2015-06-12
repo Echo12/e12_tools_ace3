@@ -45,6 +45,7 @@ PREP(actionAdminCreateCrateItems);
 PREP(actionAdminCreateCrateMedic);
 PREP(actionAdminCreateCrateRadio);
 PREP(actionAdminMedicalAssignMedic);
+PREP(actionAdminAssignAdmin);
 PREP(actionAdminMedicalFullHeal);
 PREP(actionAdminPerfMon);
 

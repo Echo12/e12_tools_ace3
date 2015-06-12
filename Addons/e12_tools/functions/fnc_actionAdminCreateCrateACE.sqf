@@ -1,8 +1,6 @@
 #include "script_component.hpp"
 PARAMS_1(_unit);
 
-[ str _pos, "e12_tools", [true, false, true] ] call CBA_fnc_debug;
-
 [0, 
 {
     private["_crate"];
