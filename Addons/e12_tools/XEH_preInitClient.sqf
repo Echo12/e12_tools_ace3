@@ -51,7 +51,6 @@ PREP(actionAdminPerfMon);
 
 //SETTINGS
 GVAR(settings_admins) = []; //Array of Admin _USERNAMES_
-PREP(actionSettingsViewDistance);
 PREP(isAdmin);
 
 //CUSTOM ACTIONS
