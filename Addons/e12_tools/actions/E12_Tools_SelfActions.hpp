@@ -6,15 +6,6 @@ class E12_SelfActions {
     condition = QUOTE(true);
     icon = PATHTOF(UI\icons\tools_main.paa);
 
-	//VIEW DISTANCE
-    class ViewDistance {
-        displayName = "$STR_E12_Tools_Actions_ViewDistance";
-	    runOnHover = 0;
-	    exceptions[] = {"notOnMap","isNotInside"};
-	    statement = QUOTE([] call FUNC(actionSettingsViewDistance));
-	    condition = QUOTE(true);
-	    icon = PATHTOF(UI\icons\tools_viewdistance.paa);
-	};
 
 	//STATISTICS
 	#include "E12_Tools_SelfActionsStatistics.hpp"
