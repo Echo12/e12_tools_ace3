@@ -28,7 +28,7 @@ PARAMS_1(_unit);
 	_crate addMagazineCargoGlobal ["SmokeShellGreen", 10];
 	_crate addMagazineCargoGlobal ["SmokeShell", 10];
 	_crate addMagazineCargoGlobal ["HandGrenade", 10];
-	_crate addMagazineCargoGlobal ["150Rnd_762x51_Box_Tracer", 10];
+	_crate addMagazineCargoGlobal ["150Rnd_762x54_Box_Tracer", 10];
 	_crate addMagazineCargoGlobal ["130Rnd_338_Mag", 10];
 	_crate addMagazineCargoGlobal ["150Rnd_93x64_Mag", 10];
 	_crate addMagazineCargoGlobal ["200Rnd_65x39_cased_Box_Tracer", 10];
