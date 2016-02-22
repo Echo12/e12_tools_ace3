@@ -12,7 +12,7 @@ class Cfg3DEN {
                         tooltip = CSTRING(3den_MissionLead_Description);
                         expression = QUOTE(_this setVariable [ARR_2(QUOTE(QGVAR(islead)),_value)];);
                         typeName = "BOOL";
-                        condition = "objectControllable + objectVehicle";
+                        condition = "objectBrain";
                         defaultValue = "false";
                         unique = 1;
                    	};
@@ -25,7 +25,7 @@ class Cfg3DEN {
                         expression = QUOTE(_this setVariable [ARR_2(QUOTE(QGVAR(isadmin)),_value)];);
                         typeName = "BOOL";
                         unique = 0;
-                        condition = "objectControllable + objectVehicle";
+                        condition = "objectBrain";
                         defaultValue = "false";
                    	};
                 };
