@@ -91,17 +91,17 @@
 
     	<Key ID="STR_E12_Tools_Actions_AssignMedicSelf">
             <English>Be a Medic</English>
-            <German>selbst zum Medic machen</German>
+            <German>Selbst zum Medic machen</German>
         </Key>
 
         <Key ID="STR_E12_Tools_Actions_AssignMedic">
             <English>Make medic</English>
-            <German>zum Medic machen</German>
+            <German>Zum Medic machen</German>
         </Key>
 
         <Key ID="STR_E12_Tools_Actions_AssignAdmin">
             <English>Make admin</English>
-            <German>zum Admin machen</German>
+            <German>Zum Admin machen</German>
         </Key>
 
     	<Key ID="STR_E12_Tools_Actions_FullHeal">
@@ -157,6 +157,31 @@
         <Key ID="STR_E12_Tools_Actions_CustomActions">
             <English>Custom Actions</English> 
             <German>Aktionen</German>
+        </Key>
+
+        <Key ID="STR_E12_Tools_3den_E12Tools_DisplayName">
+            <English>E12 Tools options</English> 
+            <German>E12 Tools Optionen</German>
+        </Key>
+
+        <Key ID="STR_E12_Tools_3den_MissionLead_DisplayName">
+            <English>Mission Lead</English> 
+            <German>Missionsleiter</German>
+        </Key>
+
+        <Key ID="STR_E12_Tools_3den_MissionLead_Description">
+            <English>Mark unit as mission leader</English> 
+            <German>Einheit als Missionsleiter festlegen</German>
+        </Key>
+
+        <Key ID="STR_E12_Tools_3den_Admin_DisplayName">
+            <English>Admin</English> 
+            <German>Admin</German>
+        </Key>
+
+        <Key ID="STR_E12_Tools_3den_Admin_Description">
+            <English>Make unit an E12 Tool admin</English> 
+            <German>Einheit als E12 Tool Admin festlegen</German>
         </Key>
 
     </Package>
