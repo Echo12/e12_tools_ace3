@@ -16,6 +16,7 @@ PARAMS_1(_unit);
 		_crate addItemCargoGlobal ["ACRE_PRC343", 20];
 		_crate addItemCargoGlobal ["ACRE_PRC148", 20];
 		_crate addItemCargoGlobal ["ACRE_PRC152", 20];
+		_crate addItemCargoGlobal ["ACRE_SEM52SL", 20];
 		_crate addItemCargoGlobal ["ACRE_PRC117F", 20];
 		_crate addItemCargoGlobal ["ACRE_PRC77", 20];
 	};
