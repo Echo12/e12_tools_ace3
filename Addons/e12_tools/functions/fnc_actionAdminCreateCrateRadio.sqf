@@ -14,11 +14,12 @@ PARAMS_1(_unit);
 		clearMagazineCargoGlobal _crate;
 		clearBackpackCargoGlobal _crate;
 		_crate addItemCargoGlobal ["ACRE_PRC343", 20];
-		_crate addItemCargoGlobal ["ACRE_PRC148", 20];
-		_crate addItemCargoGlobal ["ACRE_PRC152", 20];
+		_crate addItemCargoGlobal ["ACRE_PRC148", 4];
+		_crate addItemCargoGlobal ["ACRE_PRC152", 4];
 		_crate addItemCargoGlobal ["ACRE_SEM52SL", 20];
-		_crate addItemCargoGlobal ["ACRE_PRC117F", 20];
-		_crate addItemCargoGlobal ["ACRE_PRC77", 20];
+		_crate addItemCargoGlobal ["ACRE_PRC117F", 2];
+		_crate addItemCargoGlobal ["ACRE_PRC77", 2];
+		_crate addItemCargoGlobal ["ACRE_SEM70", 2];
 	};
 },
 _unit] call CBA_fnc_globalExecute;  
