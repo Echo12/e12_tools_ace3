@@ -2,7 +2,7 @@
 PARAMS_1(_unit);
 
 if(vehicle _unit == _unit) then {
-	[nil, _unit] call ACE_medical_fnc_treatmentAdvanced_fullHealLocal;
+	[nil, _unit] call ace_medical_treatment_fnc_fullHealLocal;
 	_unit enableStamina false;
 	_unit forceWalk false;
 	_unit allowSprint true;
